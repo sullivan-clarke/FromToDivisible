@@ -1,5 +1,7 @@
 #include "FromToDivisible.cpp"
 
+//Compiles with FromToDivisible.cpp and provides test cases
+
 int main(int argc, char **argv)
 {
   int i;
@@ -12,14 +14,6 @@ int main(int argc, char **argv)
   vector <int> b;
 
   if (argc != 2) { fprintf(stderr, "usage: a.out num\n"); exit(1); }
-
-/*
-  N = ;
-  S = ;
-  T = ;
-  a = ;
-  b = ;
-*/
 
 
  if (atoi(argv[1]) == 0) {
