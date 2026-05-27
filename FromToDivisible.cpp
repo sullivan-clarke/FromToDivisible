@@ -11,14 +11,6 @@
 #include<queue>
 using namespace std;
 
-/* Sullivan Clarke 
-FromToDivisible.cpp
-4th April, 2026
-
-This program intakes a graph and finds the shortest path
-between node S and node T if one exists. 
-*/
-
 class FromToDivisible {
   public:
     int shortest(int N, int S, int T, vector <int> a, vector <int> b);
